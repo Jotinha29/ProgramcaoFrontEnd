@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    background-color:black;
+    height:130px;
+    width:full;
+    justify-content:space-between;
+}
+
+.navBarList{
+    margin: 24px 24px 24px 24px;
+    margin-left: 600px;
+    display: flex;
+    gap:10px;
+    list-style:none;
+    justify-content: center;
+}
+
+.ButonModel{
+    background-color: #FFA500;
+    width: 150px;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
+    padding: 22px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

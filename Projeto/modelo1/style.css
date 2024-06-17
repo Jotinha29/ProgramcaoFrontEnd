@@ -1,0 +1,28 @@
+*{
+    background-color: #CD5C5C;
+}
+
+.imgs{
+    width: 800px;
+    height: 800px;
+    border-radius: 4px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+.box{
+    display: flex;
+    border: solid 3px;
+    border-radius: 8px;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
